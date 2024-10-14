@@ -86,6 +86,7 @@ export default {
   flex: 1;
   overflow-y: auto;
   padding: 10px;
+  width: 100%;
 }
 .chat-footer {
   display: flex;
@@ -103,13 +104,17 @@ export default {
 }
 
 .message-right {
-  text-align: right;
-  background-color: #d1f0d1;
-  padding: 10px;
-  border-radius: 10px;
-  margin-bottom: 10px;
+  display: flex;
+  justify-content: end;
+  align-items: end;
+  background-color: #4caf50;
+  color: white;
+  border-end-start-radius: 10px;
+  padding: 6px 10px;
+  margin: 6px 2px;
+  border-start-start-radius: 10px;
+  border-start-end-radius: 10px;
   max-width: 60%;
-  align-self: flex-end;
 }
 
 input {
